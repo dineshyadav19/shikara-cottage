@@ -12,7 +12,7 @@ const nextConfig = {
         pathname: '/**',
       },
     ],
-    domains: ['https://unsplash.com/'],
+    domains: ['https://unsplash.com/', 'https://tailwindui.com'],
   },
   webpack(config) {
     config.module.rules.push({
