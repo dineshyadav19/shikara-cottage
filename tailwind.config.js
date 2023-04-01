@@ -34,42 +34,23 @@ module.exports = {
     extend: {
       colors: {
         brand: {
+          orange: {
+            DEFAULT: '#FCF5EE',
+          },
           blue: {
-            DEFAULT: '#112f49', // Integrity blue
-            500: '#0B1F30',
-            700: '#194061',
-            800: '#112f49', // Integrity blue
-            900: '#081e31',
+            DEFAULT: '#EEF3FC',
           },
-          yellow: {
-            DEFAULT: '#f3b243',
-            400: '#ffbf53',
-            500: '#f3b243', // Default
-            700: '#ff8a00',
-          },
-          purple: {
-            DEFAULT: '#845abc',
-            100: '#7A4EB3',
-          },
-          teal: {
-            DEFAULT: '#11aab2',
-            700: '#007a8a',
+          red: {
+            DEFAULT: '#E62423',
           },
           neutral: {
             DEFAULT: '#5e5e5e', // Charcoal
             100: '#f6f6f6', // White smoke
             200: '#dbdfe4', // Hawkes blue
             500: '#5e5e5e', // Charcoal
-            900: '#112f49', // Integrity blue
           },
         },
       },
     },
   },
-  // plugins: [
-  //   require('@tailwindcss/typography'),
-  //   require('@tailwindcss/forms'),
-  //   require('@tailwindcss/aspect-ratio'),
-  //   require('@tailwindcss/line-clamp'),
-  // ],
 };
