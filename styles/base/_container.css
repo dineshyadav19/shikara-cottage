@@ -1,6 +1,6 @@
 @layer components {
   .container--boxed {
-    @apply max-w-[1440px] px-6 mx-auto;
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
   }
 
   .container--boxed--md {

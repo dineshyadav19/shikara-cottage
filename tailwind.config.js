@@ -8,8 +8,8 @@ module.exports = {
   ],
   theme: {
     fontFamily: {
-      headline: ['var(--font-figtree)', ...fontFamily.sans],
-      body: ['var(--font-figtree)', ...fontFamily.sans],
+      headline: ['var(--font-inter)', ...fontFamily.sans],
+      body: ['var(--font-inter)', ...fontFamily.sans],
     },
     fontSize: {
       xxs: ['0.625rem', { lineHeight: '0.75rem' }], // 10px

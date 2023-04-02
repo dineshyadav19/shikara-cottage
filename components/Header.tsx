@@ -16,28 +16,13 @@ const Header: React.FC<Props> = () => {
         <div className="flex items-center justify-between h-16">
           <div className="flex-shrink-0">
             <Link href="/">
-              <Image
-                className="h-8 w-auto"
-                width={200}
-                height={200}
-                src={logo}
-                alt="Workflow"
-              />
+              <Image className="h-8 w-auto" src={logo} alt="Workflow" />
             </Link>
           </div>
           <div className="hidden md:block">
             <div className="ml-4 flex items-center space-x-4">
-              <Link href="/" className="text-gray-600 hover:text-gray-900">
-                Link 1
-              </Link>
-              <Link href="/" className="text-gray-600 hover:text-gray-900">
-                Link 2
-              </Link>
-              <Link href="/" className="text-gray-600 hover:text-gray-900">
-                Link 3
-              </Link>
-              <button className="inline-flex items-center px-3 py-2 border border-transparent rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
-                Button
+              <button className="text--uppercase--sm inline-flex items-center px-3 py-2 border border-transparent rounded-md shadow-sm text-white bg-brand-red hover:bg-brand-red focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-brand-red">
+                Book Now
               </button>
             </div>
           </div>
@@ -67,26 +52,8 @@ const Header: React.FC<Props> = () => {
         {(ref) => (
           <div className="md:hidden" ref={ref}>
             <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-              <Link
-                href="/"
-                className="block text-gray-600 hover:text-gray-900"
-              >
-                Home
-              </Link>
-              <Link
-                href="/"
-                className="block text-gray-600 hover:text-gray-900"
-              >
-                Link 2
-              </Link>
-              <Link
-                href="/"
-                className="block text-gray-600 hover:text-gray-900"
-              >
-                Link 3
-              </Link>
-              <button className="block w-full px-3 py-2 mt-4 text-base font-medium text-center text-white bg-indigo-600 rounded">
-                Button
+              <button className="text--uppercase--sm block w-full px-3 py-2 mt-4 text-base font-medium text-center text-white bg-brand-red rounded">
+                Book Now
               </button>
             </div>
           </div>
