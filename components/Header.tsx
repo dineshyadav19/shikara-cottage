@@ -16,7 +16,11 @@ const Header: React.FC<Props> = () => {
         <div className="flex items-center justify-between h-16">
           <div className="flex-shrink-0">
             <Link href="/">
-              <Image className="h-8 w-auto" src={logo} alt="Workflow" />
+              <Image
+                className="h-24 w-24 mt-16 rounded "
+                src={logo}
+                alt="Workflow"
+              />
             </Link>
           </div>
           <div className="hidden md:block">
