@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <Layout>
       <div className="">
-        <div className="w-full max-h-[680px]">
+        <div className="w-full">
           <Image
             src={background}
             className="object-cover"
